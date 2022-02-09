@@ -1,0 +1,14 @@
+{
+    "username": "root",
+    "iplist": ["192.168.0.1", "192.168.0.1"],
+    "logpath": "/tmp/collie-log/",
+    "engine": "/tmp/collie/traffic_engine/collie_engine",
+    "iters": 1000,
+    "bars": {
+        "tx_pfc_bar": 1000.0, 
+        "rx_pfc_bar": 0,
+        "bps_bar": 90.0,
+        "pps_bar": 4000000.0
+    },
+    "diag_counters": []
+}
